@@ -10,7 +10,7 @@ jobs:
       - checkout
       - run:
           name: circle_ciのtest
-          command: python/hello.py
+          command: python3 python/hello.py
 
 workflows:
   main:
